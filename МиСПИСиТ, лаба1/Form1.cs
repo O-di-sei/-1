@@ -14,6 +14,7 @@ namespace МиСПИСиТ__лаба1
     {
         public Form1()
         {
+            //sooka
             InitializeComponent();
         }
     }
