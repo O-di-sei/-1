@@ -82,6 +82,7 @@
             this.plus.TabIndex = 4;
             this.plus.Text = "+";
             this.plus.UseVisualStyleBackColor = true;
+            this.plus.Click += new System.EventHandler(this.plus_Click);
             // 
             // minus
             // 
@@ -91,6 +92,7 @@
             this.minus.TabIndex = 5;
             this.minus.Text = "-";
             this.minus.UseVisualStyleBackColor = true;
+            this.minus.Click += new System.EventHandler(this.minus_Click);
             // 
             // multiply
             // 
