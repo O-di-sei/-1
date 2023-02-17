@@ -17,5 +17,19 @@ namespace МиСПИСиТ__лаба1
             //sooka
             InitializeComponent();
         }
+
+        private void plus_Click(object sender, EventArgs e)
+        {
+            int a = Convert.ToInt32(tBa.Text);
+            int b = Convert.ToInt32(tBb.Text);
+            tB.Text = Convert.ToString(a + b);
+        }
+
+        private void minus_Click(object sender, EventArgs e)
+        {
+            int a = Convert.ToInt32(tBa.Text);
+            int b = Convert.ToInt32(tBb.Text);
+            tB.Text = Convert.ToString(a - b);
+        }
     }
 }
