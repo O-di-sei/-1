@@ -31,5 +31,26 @@ namespace МиСПИСиТ__лаба1
             double b = Convert.ToDouble(tBb.Text);
             tB.Text = Convert.ToString(a - b);
         }
+
+        private void multiply_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(tBa.Text);
+            double b = Convert.ToDouble(tBb.Text);
+            tB.Text = Convert.ToString(a * b);
+        }
+
+        private void share_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(tBa.Text);
+            double b = Convert.ToDouble(tBb.Text);
+            tB.Text = Convert.ToString(a / b);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(tBa.Text);
+            double b = Convert.ToDouble(tBb.Text);
+            tB.Text = Convert.ToString(Math.Pow(a,b));
+        }
     }
 }

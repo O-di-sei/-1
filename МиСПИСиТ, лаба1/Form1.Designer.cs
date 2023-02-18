@@ -133,7 +133,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(187, 109);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(28, 25);
+            this.button1.Size = new System.Drawing.Size(34, 25);
             this.button1.TabIndex = 10;
             this.button1.Text = "**";
             this.button1.UseVisualStyleBackColor = true;
