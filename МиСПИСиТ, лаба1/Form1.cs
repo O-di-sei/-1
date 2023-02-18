@@ -67,5 +67,10 @@ namespace МиСПИСиТ__лаба1
                 summ *= i;
             tB.Text = summ.ToString();
         }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(tBa.Text);
+            tB.Text = Convert.ToString(Math.Log10(a));
+        }
     }
 }
