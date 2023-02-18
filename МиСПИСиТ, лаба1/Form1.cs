@@ -26,9 +26,9 @@ namespace МиСПИСиТ__лаба1
 
         private void minus_Click_1(object sender, EventArgs e)
         {
-                    double a = Convert.ToDouble(tBa.Text);
-                    double b = Convert.ToDouble(tBb.Text);
-                    tB.Text = Convert.ToString(a - b);
+            double a = Convert.ToDouble(tBa.Text);
+            double b = Convert.ToDouble(tBb.Text);
+            tB.Text = Convert.ToString(a - b);
         }
 
         private void multiply_Click(object sender, EventArgs e)
