@@ -44,5 +44,19 @@ namespace МиСПИСиТ__лаба1
             double b = Convert.ToDouble(tBb.Text);
             tB.Text = Convert.ToString(a / b);
         }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(tBa.Text);
+            double b = Convert.ToDouble(tBb.Text);
+            tB.Text = Convert.ToString(Math.Pow(a,b));
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //tBb.Text = "2";
+            double a = Convert.ToDouble(tBa.Text);
+            double b = Convert.ToDouble(tBb.Text);
+            tB.Text = Convert.ToString(Math.Sqrt(a));
+        }
     }
 }
