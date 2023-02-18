@@ -100,6 +100,7 @@
             this.multiply.TabIndex = 6;
             this.multiply.Text = "*";
             this.multiply.UseVisualStyleBackColor = true;
+            this.multiply.Click += new System.EventHandler(this.multiply_Click);
             // 
             // share
             // 
@@ -109,6 +110,7 @@
             this.share.TabIndex = 7;
             this.share.Text = "/";
             this.share.UseVisualStyleBackColor = true;
+            this.share.Click += new System.EventHandler(this.share_Click);
             // 
             // label3
             // 
