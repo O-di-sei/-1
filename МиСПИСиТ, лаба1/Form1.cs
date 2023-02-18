@@ -17,19 +17,32 @@ namespace МиСПИСиТ__лаба1
             //sooka
             InitializeComponent();
         }
-
-        private void plus_Click(object sender, EventArgs e)
+        private void plus_Click_1(object sender, EventArgs e)
         {
             double a = Convert.ToDouble(tBa.Text);
             double b = Convert.ToDouble(tBb.Text);
             tB.Text = Convert.ToString(a + b);
         }
 
-        private void minus_Click(object sender, EventArgs e)
+        private void minus_Click_1(object sender, EventArgs e)
+        {
+                    double a = Convert.ToDouble(tBa.Text);
+                    double b = Convert.ToDouble(tBb.Text);
+                    tB.Text = Convert.ToString(a - b);
+        }
+
+        private void multiply_Click(object sender, EventArgs e)
         {
             double a = Convert.ToDouble(tBa.Text);
             double b = Convert.ToDouble(tBb.Text);
-            tB.Text = Convert.ToString(a - b);
+            tB.Text = Convert.ToString(a * b);
+        }
+
+        private void share_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(tBa.Text);
+            double b = Convert.ToDouble(tBb.Text);
+            tB.Text = Convert.ToString(a / b);
         }
     }
 }
