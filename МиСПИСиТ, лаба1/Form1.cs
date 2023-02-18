@@ -17,15 +17,14 @@ namespace МиСПИСиТ__лаба1
             //sooka
             InitializeComponent();
         }
-
-        private void plus_Click(object sender, EventArgs e)
+        private void plus_Click_1(object sender, EventArgs e)
         {
             double a = Convert.ToDouble(tBa.Text);
             double b = Convert.ToDouble(tBb.Text);
             tB.Text = Convert.ToString(a + b);
         }
 
-        private void minus_Click(object sender, EventArgs e)
+        private void minus_Click_1(object sender, EventArgs e)
         {
             double a = Convert.ToDouble(tBa.Text);
             double b = Convert.ToDouble(tBb.Text);
@@ -45,12 +44,34 @@ namespace МиСПИСиТ__лаба1
             double b = Convert.ToDouble(tBb.Text);
             tB.Text = Convert.ToString(a / b);
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             double a = Convert.ToDouble(tBa.Text);
             double b = Convert.ToDouble(tBb.Text);
             tB.Text = Convert.ToString(Math.Pow(a,b));
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //tBb.Text = "2";
+            double a = Convert.ToDouble(tBa.Text);
+            double b = Convert.ToDouble(tBb.Text);
+            tB.Text = Convert.ToString(Math.Sqrt(a));
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(tBa.Text);
+            double summ = 1;
+            for (int i = 2; i <= a; i++)
+                summ *= i;
+            tB.Text = summ.ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(tBa.Text);
+            tB.Text = Convert.ToString(Math.Log10(a));
         }
     }
 }
