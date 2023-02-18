@@ -58,5 +58,14 @@ namespace МиСПИСиТ__лаба1
             double b = Convert.ToDouble(tBb.Text);
             tB.Text = Convert.ToString(Math.Sqrt(a));
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(tBa.Text);
+            double summ = 1;
+            for (int i = 2; i <= a; i++)
+                summ *= i;
+            tB.Text = summ.ToString();
+        }
     }
 }
