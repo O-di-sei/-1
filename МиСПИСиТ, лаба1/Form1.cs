@@ -56,7 +56,7 @@ namespace МиСПИСиТ__лаба1
             //tBb.Text = "2";
             double a = Convert.ToDouble(tBa.Text);
             double b = Convert.ToDouble(tBb.Text);
-            //tB.Text = Convert.ToString(Math.Sqrt(a));
+            tB.Text = Convert.ToString(Math.Sqrt(a));
         }
 
         private void button3_Click(object sender, EventArgs e)
